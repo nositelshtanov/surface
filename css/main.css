@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+} 
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+.container {
+    max-width: 1530px;
+    margin: 0 auto;
+} 
+
+/*==============_1920_==================*/
+
+/*---------------main-head-----------*/
+.main-head {
+    background-image: linear-gradient(to top, rgba(10, 14, 52, .9), rgba(10, 14, 52, .9)), url(../img/football_1920_1886.png);
+    background-repeat: no-repeat, no-repeat;
+    background-size: contain, cover;
+    background-position: center, center 0;
+}
+
+.logo-header {
+    padding-top: 45px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 295px;
+}
+
+.main-head h1 {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 221px;
+}
+
+.main-head h1 span {
+    color: white;
+    font-family: 'Open sans';
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 90px;
+    line-height: 90px;
+    letter-spacing: 5px;
+    
+    display: block;
+}
+
+.main-head h1 span:last-child {
+    text-align: end;    
+}
+
+/*------buttons--------*/
+.main-btns {
+    width: 673px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.main-btns button {
+    width: 312px;
+    height: 78px;
+    background-color: #5E42B0;
+    border: none;
+    border-radius: 50px;
+}
+
+.main-btns button .btn-wrapper {
+    display: flex;
+    width: 212px;
+    height: 48px;
+    margin: 0 auto;
+}
+
+.main-btns button .btn-wrapper p {
+    margin: 0;
+    color: white;
+    font-size: 14px;
+    font-family: 'Open sans';
+    font-weight: 400;
+    line-height: 14px;
+}
+
+.main-btns button .btn-wrapper p span {
+    display: block;
+}  
+
+/*===============_768_=================*/
+
+@media screen and (min-width: 321px) and (max-width: 768px) {
+
+    .container {
+        max-width: 593px;
+        margin: 0 auto;
+    } 
+
+    /*---------------main-head-----------*/
+
+    .logo-header {
+        padding-top: 39px;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 181px;
+    }
+
+    .main-head h1 span {
+        font-size: 64px;
+        line-height: 64px;
+        letter-spacing: 3px;
+    }
+
+    .main-head h1 span:last-child {
+        text-align: start;
+        padding-left: 105px;
+    }
+}
+
+/*================_320_==================*/
+
+@media screen and (min-width: 200px) and (max-width: 320px) {
+
+    .container {
+        max-width: 258px;
+        margin: 0 auto;
+    } 
+
+    /*---------------main-head-----------*/
+
+    .logo-header {
+        padding-top: 33px;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 136px;
+    }
+
+    .main-head h1 span {
+        font-size: 28px;
+        line-height: 28px; 
+        letter-spacing: 1px;  
+    }
+
+    .main-head h1 span:last-child {
+        text-align: start;
+        padding-left: 44px;
+    }
+}
