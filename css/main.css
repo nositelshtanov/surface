@@ -61,6 +61,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
+    padding-bottom: 111px;
 }
 
 .main-btns button {
@@ -84,12 +85,32 @@ body {
     font-size: 14px;
     font-family: 'Open sans';
     font-weight: 400;
-    line-height: 14px;
+    line-height: 16px;
+    padding-left: 24px;
+    text-transform: uppercase;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-btns .btn-wrapper img {
+    width: 42px;
+    height: 48px;
 }
 
 .main-btns button .btn-wrapper p span {
     display: block;
+    text-align: left;
 }  
+
+.main-btns button .btn-wrapper p span:last-child {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+
+} 
+
 
 /*===============_768_=================*/
 
