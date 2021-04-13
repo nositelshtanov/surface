@@ -111,10 +111,100 @@ body {
 
 } 
 
+/*----------------блоки-------------*/
+
+.block1, .block2, .block3, .block4 {
+
+}
+
+.block {
+    height: 225px;
+}
+
+.block h1, .block p, .block h2 {
+    margin: 0;
+    margin-left: 55%;
+}
+
+.block h1 {
+    font-size: 80px;
+    color: #e7e7e7; 
+
+    padding-top: 120px;
+}
+
+.block h2 {
+    color: #e7e7e7;
+    font-size: 36px;
+    font-weight: 700;
+    display: flex;
+
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.block p {
+    font-size: 20px;
+    color: #000000;
+}
+
+p.white {
+    color: #ffffff;
+}
+
+.block3 {
+    background-color: #f6f4fa;
+}
+
+.block4 {
+    background-color: #5e42b0;
+    position: relative;
+}
+
+.block h2 span {
+    font-family: Arial;
+    font-size: 18px;
+    color: #000000;
+    display: inline-block;
+    padding-top: 2px;
+    padding-right: 12px;
+}
+
+.block h2 span::after {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 20px;
+    background-color: #5e42b0;
+    border-radius: 3px;
+
+    margin-top: 5px;
+}
+
+.block h2 .white2::after {
+    background-color: white;
+}
+
+.block4::after {
+    content: '';
+    display: block;
+    background-image: url(../img/footballer.png);
+    width: 556px;
+    height: 908px;
+    position: absolute;
+    top: -640px;
+    left: 385px;
+}
+
+
+
+
+
+
 
 /*===============_768_=================*/
 
-@media screen and (min-width: 321px) and (max-width: 768px) {
+@media screen/* and (min-width: 321px) */and (max-width: 768px) {
 
     .container {
         max-width: 593px;
@@ -122,6 +212,10 @@ body {
     } 
 
     /*---------------main-head-----------*/
+
+    .main-head {
+        width: 100%;
+    }
 
     .logo-header {
         padding-top: 39px;
@@ -144,7 +238,7 @@ body {
 
 /*================_320_==================*/
 
-@media screen and (min-width: 200px) and (max-width: 320px) {
+@media screen/* and (min-width: 200px) */and (max-width: 320px) {
 
     .container {
         max-width: 258px;
