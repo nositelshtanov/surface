@@ -113,10 +113,6 @@ body {
 
 /*----------------блоки-------------*/
 
-.block1, .block2, .block3, .block4 {
-
-}
-
 .block {
     height: 225px;
 }
@@ -129,6 +125,7 @@ body {
 .block h1 {
     font-size: 80px;
     color: #e7e7e7; 
+    text-transform: uppercase;
 
     padding-top: 120px;
 }
@@ -189,12 +186,134 @@ p.white {
     content: '';
     display: block;
     background-image: url(../img/footballer.png);
-    width: 556px;
+    width: 565px;
     height: 908px;
     position: absolute;
     top: -640px;
     left: 385px;
 }
+
+/*-----------Second-----------------*/
+
+.block-2 h1, .block-2 p, .block-2 h2 {
+    margin: 0;
+    margin-right: 55%;
+}
+
+.block-2 h1, .block-2 p, .block-2 h2 {
+    margin: 0;
+    margin-right: 55%;
+}
+
+
+
+.block4-2 {
+    background-color: #0a0e34;
+    position: relative;
+}
+
+.block4-2::after {
+    content: '';
+    display: block;
+    background-image: url(../img/player.png);
+    background-repeat: no-repeat;
+    width: 991px;
+    height: 815px;
+    position: absolute;
+    top: -600px;
+    right: 120px;
+}
+
+.block h2 span.white2 {
+    color: #9173e6;
+}
+
+/*---------------------list-----------------------*/
+
+.row {
+    display: flex;
+}
+
+.picture, .motivation-text {
+    width: 50%;
+    height: 727px;
+}
+
+.picture {
+    position: relative;
+}
+
+.pict1 {
+    background-image: url(../img/be-active_960.png);
+}
+
+.pict2 {
+    background-image: url(../img/find-contact_960.png);
+}
+
+.pict3 {
+    background-image: url(../img/work-it_960.png);
+}
+
+.motivation-text h2 {
+    margin: 0;
+    font-size: 80px;
+    color: #e7e7e7; 
+    text-transform: uppercase;
+
+    padding-top: 250px;
+    padding-bottom: 110px;
+    padding-left: 130px;
+}
+
+.motivation-text p {
+    font-size: 24px;
+    padding-left: 130px;
+    padding-right: 15px;
+}
+
+.picture .mini-block {
+    width: 170px;
+    height: 150px;
+    background-color: #5e42b0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top: 210px;
+    right: -83px;
+}
+
+.mini-block-second {
+    left: -83px;
+}
+
+.picture .mini-block span {
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    position: relative;
+}
+
+.picture .mini-block span::after {
+    content: '';
+    display: block;
+    width: 24px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    background-color: #8f7bc8;
+    bottom: -8px;
+}
+
+/*------------footer-------------*/
+
+.main-footer {
+    
+}
+
+
 
 
 
