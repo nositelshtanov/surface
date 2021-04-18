@@ -310,9 +310,59 @@ p.white {
 /*------------footer-------------*/
 
 .main-footer {
-    
+    background-image: linear-gradient(to top, rgba(10, 14, 52, .9), rgba(10, 14, 52, .9)), url(../img/game_1920@1X.png);
+    background-repeat: no-repeat, no-repeat;
+    background-size: contain, cover;
+    background-position: center, center 0;
 }
 
+.flex-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.download {
+    display: flex;
+    padding-top: 230px;
+    padding-bottom: 150px;
+}
+
+.logo-block {
+    width: 130px;
+    height: 137px;
+    background-image: url(../img/Logo@1X.png);
+}
+
+.block-text {
+    padding-left: 35px;
+}
+
+.block-text h2, .block-text p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open-sans';
+    color: white;
+    text-transform: uppercase;
+}
+
+.block-text h2{
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.block-text p {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.main-btns2 {
+    padding-bottom: 262px;
+}
+
+.logo-header2 {
+    padding-bottom: 52px;
+}
 
 
 
